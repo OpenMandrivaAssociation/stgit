@@ -1,10 +1,10 @@
 
 Summary: 	Stacked GIT
 Name:		stgit
-Version: 	0.12.1
-Release: 	%mkrel 2
+Version: 	0.13
+Release: 	%mkrel 1
 Url: 		http://www.procode.org/stgit/
-Source0: 	http://homepage.ntlworld.com/cmarinas/stgit/%{name}-%{version}.tar.bz2
+Source0: 	http://homepage.ntlworld.com/cmarinas/stgit/%{name}-%{version}.tar.gz
 
 License: 	GPL
 Group: 		Development/Other
