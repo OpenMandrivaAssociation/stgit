@@ -12,6 +12,7 @@ BuildArch: 	noarch
 Requires: 	python
 Requires: 	git-core
 BuildRequires:	python-devel
+BuildRequires:  git-core
 
 %description
 StGIT is a Python application providing similar functionality to Quilt (i.e.
