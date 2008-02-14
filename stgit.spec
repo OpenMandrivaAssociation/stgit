@@ -8,6 +8,7 @@ Source0: 	http://homepage.ntlworld.com/cmarinas/stgit/%{name}-%{version}.tar.gz
 
 License: 	GPL
 Group: 		Development/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: 	noarch
 Requires: 	python
 Requires: 	git-core
