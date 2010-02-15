@@ -1,10 +1,10 @@
 
 Summary: 	Stacked GIT
 Name:		stgit
-Version: 	0.14.3
-Release: 	%mkrel 3
+Version: 	0.15
+Release: 	%mkrel 1
 Url: 		http://www.procode.org/stgit/
-Source0: 	http://homepage.ntlworld.com/cmarinas/stgit/%{name}-%{version}.tar.gz
+Source0: 	http://download.gna.org/stgit/%{name}-%{version}.tar.gz
 
 License: 	GPL
 Group: 		Development/Other
@@ -31,10 +31,10 @@ plain GIT commands or the Cogito tool.
 %setup
 
 %build
-python setup.py build
+%make
 
 %install
-python setup.py install --root=$RPM_BUILD_ROOT --prefix=%{_prefix}
+%make install DESTDIR=$RPM_BUILD_ROOT prefix=%{_prefix}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
