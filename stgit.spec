@@ -2,7 +2,7 @@
 Summary: 	Stacked GIT
 Name:		stgit
 Version: 	0.15
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 Url: 		http://www.procode.org/stgit/
 Source0: 	http://download.gna.org/stgit/%{name}-%{version}.tar.gz
 
