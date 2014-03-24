@@ -1,14 +1,12 @@
-
 Summary: 	Stacked GIT
 Name:		stgit
-Version: 	0.15
-Release: 	%mkrel 2
+Version: 	0.16
+Release: 	1
 Url: 		http://www.procode.org/stgit/
 Source0: 	http://download.gna.org/stgit/%{name}-%{version}.tar.gz
 
 License: 	GPL
 Group: 		Development/Other
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: 	noarch
 Requires: 	python
 Requires: 	git-core
@@ -34,18 +32,12 @@ plain GIT commands or the Cogito tool.
 %make
 
 %install
-%make install DESTDIR=$RPM_BUILD_ROOT prefix=%{_prefix}
-
-%clean
-rm -rf $RPM_BUILD_ROOT
+%make install DESTDIR=%{buildroot} prefix=%{_prefix}
 
 %files
-%defattr(-,root,root)
 %{_bindir}/*
-%{_datadir}/%name
-%{py_puresitedir}/%name
+%{_datadir}/%{name}
+%{py_puresitedir}/%{name}
 %{py_puresitedir}/%{name}-*.egg-info
 %doc README AUTHORS INSTALL COPYING
-
-
 
