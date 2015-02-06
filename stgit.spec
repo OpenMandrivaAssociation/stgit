@@ -1,7 +1,7 @@
 Summary: 	Stacked GIT
 Name:		stgit
 Version: 	0.16
-Release: 	1
+Release: 	2
 Url: 		http://www.procode.org/stgit/
 Source0: 	http://download.gna.org/stgit/%{name}-%{version}.tar.gz
 
