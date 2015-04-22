@@ -1,4 +1,5 @@
 removed_sources:
   stgit-0.15.tar.gz: 8f18e3079014d907237aeffa6b851074422b7f27
-sources:
   stgit-0.16.tar.gz: 10b62d080a4c34c2dd11de4d1c800f62b9e5018c
+sources:
+  stgit-0.17.1.tar.gz: 5918fd983919ab70ab191868b84e917a06556cc2
