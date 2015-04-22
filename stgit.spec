@@ -37,7 +37,7 @@ plain GIT commands or the Cogito tool.
 %files
 %{_bindir}/*
 %{_datadir}/%{name}
-%{py_puresitedir}/%{name}
-%{py_puresitedir}/%{name}-*.egg-info
+%{py2_puresitedir}/%{name}
+%{py2_puresitedir}/%{name}-*.egg-info
 %doc README AUTHORS INSTALL COPYING
 
