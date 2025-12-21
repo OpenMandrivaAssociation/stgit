@@ -10,6 +10,7 @@ Group: 		Development/Other
 BuildArch: 	noarch
 Requires: 	python
 Requires: 	git-core
+BuildRequires:	make
 BuildRequires:	python-devel
 BuildRequires:  git-core
 
